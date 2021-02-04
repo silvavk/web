@@ -1,0 +1,59 @@
+body{
+    background-color: grey;
+    width: 992px;
+    margin: 0 auto;
+    font-family: Arial;
+
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+}
+.logo{
+    width: 50%;
+}
+
+.eslogan{
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2%;
+    color: #035AA6;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedores{
+    width: 355px;
+    margin-top: 5%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: white;
+    padding-left: 5%;
+    float: bottom;
+
+
+}
+.contenedores:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+
+}
+.imagen{
+    width: 325px;
+    height: 350px;
+
+}
